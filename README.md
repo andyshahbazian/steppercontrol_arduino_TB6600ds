@@ -3,17 +3,13 @@ Arduino based controller for rotating plate - expecting serial commands from jes
 ![image](https://github.com/andyshahbazian/steppercontrol_arduino_TB6600ds/assets/16087670/2ff29e59-f850-452e-9c7e-04399ac37945)
 # Motor Controller Connections
 
-### Motor Control:
-
-# Motor Controller Connections
-
 **Motor Control:**
 - ENA - Open
-- ENA + ------------- +5V Orange |
-- DIR - -> D10 (Black)           |
-- DIR + ------------ +5V Orange  |----> +5V Arduino Pin 5 (from barrel connector side)
-- PUL - -> D11 (Green)           |
-- PUL + ------------- +5V Orange |
+- ENA + -------------       +5V Orange |
+- DIR - -> D10 (Black)-------------|
+- DIR + --------------       +5V Orange  |----> +5V Arduino Pin 5 (from barrel connector side)
+- PUL - -> D11 (Green)-------------|
+- PUL + --------------       +5V Orange |
 
 
 ### Motor Wires:
@@ -38,13 +34,6 @@ Arduino based controller for rotating plate - expecting serial commands from jes
 - **6**: OFF
 
 
-
-ENA -   Open 
-ENA +   ------------- +5  V   Orange |
-DIR -  -> D10  (Black)               |
-DIR +   ------------  +5  V   Ornage |----> +5V arduino Pin 5 from barrel connector side 
-PUL -  -> D11  (Green)               |
-PUL +   -------------  +5 V   Orange |
 
 
 
